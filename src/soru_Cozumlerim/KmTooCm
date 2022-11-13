@@ -1,0 +1,34 @@
+package soru_Cozumlerim;
+
+import java.util.Scanner;
+
+public class kmToCM {
+    public static void main(String[] args) {
+ /*Soru 4- Kullanicidan mesafeyi kilometre olarak alin ve
+        cevirmek istedigi birimi  sorun, istedigi birim metre veya
+         santimetre ise cevirip yazdirin, yoksa
+         “istediginiz birim sisteme kayitli degil” yazdirin.*/
+        Scanner scan=new Scanner(System.in);
+
+
+        System.out.println("lütfen KM olarak mesafeyi giriniz");
+        double mesafe= scan.nextDouble();
+        System.out.println("çevirmek istediğiniz birimi" +"\nmetre için 1 giriniz :" + " \nsantimetre için 2 giriniz");
+        double sonuc1,sonuc2;
+        sonuc1=(mesafe*1000);
+        sonuc2=(mesafe*100000);
+
+        int birim= scan.nextInt();
+
+
+      if (birim==1) {
+        System.out.println("istenilen uzunluk çevirimi " + sonuc1 + " metre");
+    } else if (birim==2) {
+        System.out.println("istenilen uzunluk çevirimi " + sonuc2 + " santimetre");
+    }else {
+        System.out.println("istediğiniz birim sisteme kayıtlı değildir");
+
+
+    }
+    }
+}
