@@ -1,9 +1,6 @@
 package ders32_inheritanceConstructorCall;
 
-public class
-
-
-Corolla extends BToyota {
+public class Corolla extends BToyota {
 
     Corolla (int pc){
         super(5);

@@ -27,7 +27,7 @@ public class Rope {
 
     public static void main(String[] args) {
 
-        Rope rope=null;//NullPointerException
+        Rope rope=null;
         rope.swing();
     }
 }

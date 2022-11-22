@@ -1,8 +1,9 @@
 package ders14_methodOlusturma;
 
 public class C03_StringTerseCevirme {
+
     // parametre olarak bir String kabul edip
-    // String'in terse cevrilmis halini döndüren   bir method olusturun
+    // String'in terse cevrilmis halini döndüren bir method olusturun
 
     public static void main(String[] args) {
 
@@ -25,4 +26,3 @@ public class C03_StringTerseCevirme {
 
     }
 }
-

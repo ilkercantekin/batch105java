@@ -10,8 +10,7 @@ public class C05_ObjectVariables {
 
 
         C03_ObjectVariables pers1= new C03_ObjectVariables();
-        C03_ObjectVariables obj1=new C03_ObjectVariables();
-        System.out.println(obj1.persTelefonu);//  Telefon girilmedi  yazar
+
         System.out.println(pers1.persIsmi); // Isim girilmedi
         System.out.println(pers1.persYasi); // 0
 

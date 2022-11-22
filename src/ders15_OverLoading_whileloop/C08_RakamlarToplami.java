@@ -1,6 +1,7 @@
 package ders15_OverLoading_whileloop;
 
 public class C08_RakamlarToplami {
+
     public static void main(String[] args) {
         // Soru 2- While loop kullanarak kullanicidan alinan sayinin rakamlar toplamini bulun.
 

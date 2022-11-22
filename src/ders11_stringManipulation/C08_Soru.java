@@ -11,7 +11,7 @@ public class C08_Soru {
         // - sifre bosluk icermemeli
         // - uzunlugu en az 10 karakter olmali
 
-        String sifre="Nasilsin Kardes1";
+        String sifre="nasilsinKardes1";
         int bayrak=0;
 
         if (!(sifre.charAt(0)>='a' && sifre.charAt(0)<='z')){
@@ -38,5 +38,6 @@ public class C08_Soru {
         if (bayrak==0){
             System.out.println("sifreniz basari ile kaydedildi");
         }
+
     }
 }

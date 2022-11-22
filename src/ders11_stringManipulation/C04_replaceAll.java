@@ -2,6 +2,7 @@ package ders11_stringManipulation;
 
 public class C04_replaceAll {
     public static void main(String[] args) {
+
         // Kullanicinin girdigi metinde
         // harf disinda kalan tum karakterleri temizleyen bir kod yazin
         // NOT : space silinmemeli

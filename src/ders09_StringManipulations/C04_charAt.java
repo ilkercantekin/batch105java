@@ -1,16 +1,24 @@
 package ders09_StringManipulations;
 
 public class C04_charAt {
+
     public static void main(String[] args) {
-        String  str="Java Candır";
-        System.out.println(str.charAt(0));// ilk harfi verir J
-        System.out.println(str.charAt(5)); // 5. index teki char ı verrir yani C yazar(boşlukt 4.index sayılır)
-        System.out.println(str.charAt(10)); // r yazar
+
+        String str= "Java Candir";
+
+        System.out.println(str.charAt(0)); // ilk harfi verir J
+
+        System.out.println(str.charAt(5)); // 5.index'deki char'i verir C
+
+        System.out.println(str.charAt(10)); // bana sonuncu karakteri yazdirin r
+
         /*
-        bir metindekşi karakter sayısı ile  son index arasında  1 fark vardır
-        bu metin için karakter sayısı 11 ama son index 10 dur
+          bir metindeki karakter sayisi ile son index arasinda 1 fark vardir
+          bu metin icin  karakter sayisi 11
+                         son index 10 dur.
          */
-       // System.out.println(str.charAt(11));//  hata vereri .StringIndexOutOfBoundsException yazar
+
+        // System.out.println(str.charAt(11)); // StringIndexOutOfBoundsException
 
 
 

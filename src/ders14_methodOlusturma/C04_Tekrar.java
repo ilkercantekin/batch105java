@@ -30,5 +30,4 @@ public class C04_Tekrar {
         System.out.println(str.toUpperCase());
 
     }
-
 }

@@ -22,4 +22,3 @@ public class C02_StringConcate {
         return str1+" "+str2;
     }
 }
-
