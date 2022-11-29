@@ -23,7 +23,7 @@ public class C03_Maps {
 
         ogrenciMap.put(107,"Hasan-Yan-12-H-MF");
         ogrenciMap.put(101,"Adem-Fan-12-T-Soz");
-        String subeAdi="H";
+        String subeAdi="M";
         MapDepo.subeOgrenciBilgileriniYazdir(ogrenciMap,subeAdi);
     }
 }

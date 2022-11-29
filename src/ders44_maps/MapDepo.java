@@ -57,6 +57,7 @@ public class MapDepo {
     public static void subeOgrenciBilgileriniYazdir(Map<Integer, String> ogrenciMap, String subeAdi) {
 
         Collection<String> valueCollection = ogrenciMap.values();
+
         /*
           [
           Ali-Can-10-H-MF,

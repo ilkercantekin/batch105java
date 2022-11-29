@@ -1,7 +1,6 @@
 package ders45_maps;
 
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 public class C01_Maps {
     public static void main(String[] args) {
@@ -15,15 +14,15 @@ public class C01_Maps {
 
         String[] harflerArr=str.split("");
         // [J, a, v, a, y, i,  , b, a, l, o, n, u,  , p, a, t, l, a, t, m, a, d, a, n,  , b, i, t, i, r, e, l, i, m]
+        Map<String,Integer> kullanimMiktarlari= new HashMap<>();
 
-        Map<String,Integer> kullanimMiktarlariMap= new TreeMap<>();
         int sayac=1;
 
         // 1- tum harfleri sirasi ile ele alacagiz
         for (int i = 0; i < harflerArr.length ; i++) {
 
             // 2- ele aldigimiz harfin, daha once map'e eklenip eklenmedigini kontrol edelim
-            if (kullanimMiktarlariMap.containsKey(harflerArr[i])){
+            if (kullanimMiktarlari.containsKey(harflerArr[i])){
                 continue;
             }else{
                 // Kod buraya geldiyse o harf henuz map'e eklenmemistir.
@@ -34,11 +33,11 @@ public class C01_Maps {
                     }
                 }
                 // sayma islemi bitti, Key ve Value'yu map'e ekleyelim
-                kullanimMiktarlariMap.put(harflerArr[i],sayac );
+                kullanimMiktarlari.put(harflerArr[i],sayac );
                 sayac=1;
             }
         }
 
-        System.out.println(kullanimMiktarlariMap);
+        System.out.println(kullanimMiktarlari);
     }
 }
